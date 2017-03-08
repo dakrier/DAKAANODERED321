@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: DAKAANODERED321
+  host: DAKAANODERED321
+  disk_quota: 1024M
+  services:
+  - DAKAANODERED321-cloudantNoSQLDB
